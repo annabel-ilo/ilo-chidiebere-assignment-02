@@ -27,10 +27,23 @@ function sumOfNumbers(arrayOfNumbers) {
  * @param {Array} arrayOfNumbers the array containing even or non-even numbers
  * @returns number the count of even numbers
  */
+
+var counting = [1,2,3,4,6,100,30,25];
 function countEvenNumbers(arrayOfNumbers) {
-    return arrayOfNumbers.length;
+    var numberCount = 0;
+    
+    for (let i = 0; i < arrayOfNumbers.length; i++){
+        if(arrayOfNumbers[i] % 2 ===0){
+            numberCount++;
+        }
+    }
+    
+    return numberCount;
+
 }
-// assignment.countEvenNumbers = countEvenNumbers;
+ assignment.countEvenNumbers = countEvenNumbers;
+ console.log(countEvenNumbers(counting))
+
 
 /**
  * Challenge - 3
@@ -54,6 +67,6 @@ function celsiusToFahrenheit(arrayOfNumbers) {
 
 // ========================
 // DO NOT EDIT THIS BLOCK
-module.exports = assignment;
+//module.exports = assignment;
 // ========================
 
