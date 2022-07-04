@@ -42,7 +42,7 @@ function countEvenNumbers(arrayOfNumbers) {
 
 }
  assignment.countEvenNumbers = countEvenNumbers;
- console.log(countEvenNumbers(counting))
+ console.log('number of even number in the array = ' + countEvenNumbers(counting))
 
 
 /**
