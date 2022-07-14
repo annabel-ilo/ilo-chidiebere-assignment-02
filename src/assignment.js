@@ -13,7 +13,7 @@ const assignment = {};
  * @param {Array} arrayOfNumbers the array of numbers to sum
  * @returns number the sum of the numbers
  */
-var arrayOfNum = [2, 8, -2]
+var arrayOfNum = [2, 8, -2, 10]
 function sumOfNumbers(arrayOfNumbers) {
   let numberSum = 0;
   for (let i = 0; i < arrayOfNum.length; i++) {
@@ -22,7 +22,7 @@ function sumOfNumbers(arrayOfNumbers) {
     return numberSum;
 }
  assignment.sumOfNumbers = sumOfNumbers;
-console.log('sum of number in the array = ' + sumOfNumbers(arrayOfNum))
+console.log('sum of numbers in the array is = ' + sumOfNumbers(arrayOfNum))
 
 /**
  * Challenge - 2
